@@ -2,9 +2,9 @@
 clc, clear , close all
 % Parameters
 c							=	3e8;								% Speed of light (m/s)
-f							=	15e9;								% Frequency (Hz)
+f							=	10e9;								% Frequency (Hz)
 lambda						=	c / f;								% Wavelength (m)
-d							=	lambda / (1 + sind(25));			% Element spacing (half wavelength)
+d							=	lambda / (1 + sind(45));			% Element spacing (half wavelength)
 N							=	64;									% Number of array elements
 angles						=	[20 20.8];							% True source angles (closely spaced < beamwidth)
 SNR							=	15;									% High Signal-to-Noise Ratio (dB)
