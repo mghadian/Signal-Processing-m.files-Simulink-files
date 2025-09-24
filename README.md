@@ -8,3 +8,6 @@ Direct Implementation of GPS/INS navigation using ESKF (Error-state Kalman Filte
 
 ## Stagger Design
 PRI Staggering design to extend blind speed. Also, optimization of the coeficients ralated to the clutter cancelation filter is included in the m.file.
+
+## Array Patterns
+Tapering and Beamforming of a arbitary array. Taylor and Bayliss patterns are included. Also, array apperture using subarrays and tiles can be designed.
